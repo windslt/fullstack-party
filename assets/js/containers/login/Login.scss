@@ -1,0 +1,38 @@
+.Login {
+  background: url('../../images/login-bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container {
+    margin: 0 auto;
+    .logo{
+      background: url('../../images/testio-logo.png');
+      width: 246px;
+      height: 64px;
+      margin: 0 auto 60px;
+    }
+    .button {
+      width: 370px;
+      height: 56px;
+      display: block;
+      border-radius: 5px;
+      background-color: #9fd533;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      line-height: 3.5;
+      transition: all 0.3s ease 0s;
+      text-decoration: none;
+      text-transform: capitalize;
+      &:hover{
+        background-color: #86b300;
+      }
+    }
+  }
+}

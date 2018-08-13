@@ -1,0 +1,29 @@
+.pagination{
+  margin: 0 auto;
+  display: table;
+  .page{
+    float: left;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 2.7;
+    margin: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    &:hover{
+      text-decoration: underline;
+    }
+    &.active{
+      background-color: #9fd533;
+      cursor: context-menu;
+      text-decoration: none;
+    }
+    &.dot{
+      background-color: transparent;
+      cursor: context-menu;
+      text-decoration: none;
+    }
+  }
+}

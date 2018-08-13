@@ -1,0 +1,26 @@
+.header {
+  height: 115px;
+  border-bottom: 1pt solid #e6e6e6;
+  background-color: #ffffff;
+  .row {
+    padding: 40px;
+  }
+  .logo {
+    background: url('../../images/testio-blue.png');
+    width: 120px;
+    height: 31px;
+    float: left;
+  }
+  .logout {
+    float: right;
+    font-size: 15px;
+    cursor: pointer;
+    a {
+      color: #2f3254;
+      text-decoration: none;
+      &:hover {
+        color: #99cc33;
+      }
+    }
+  }
+}

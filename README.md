@@ -1,3 +1,15 @@
+# Install
+
+```
+$ composer install
+$ cp .env.dist .env
+$ php bin/console doctrine:database:create
+& php bin/console doctrine:migrations:migrate
+$ npm install
+$ npm run build
+$ php bin/console server:start
+```
+
 # Great task for Great Fullstack Developer
 
 If you found this task it means we are looking for you!
